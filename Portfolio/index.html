@@ -1,0 +1,588 @@
+<!--                               Walid Jerjawi                  
+                            Final-Sprint -FrontEnd Technology 
+                                Dec 02, 2024- Dec 15, 2024-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="mainbox">
+      <header class="header">
+        <div class="header-section">
+          <div class="logo">
+            <!-- <a href="#"><span class="logo-text">Walid.</span></a> -->
+            <a>
+              WAL<span class="i">i<span class="dot">.</span></span
+              >D</a
+            >
+          </div>
+          <nav class="nav">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#services">Services</a></li>
+
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact Me</a></li>
+            </ul>
+          </nav>
+          <div class="header-btn">
+            <a href="#hire-me" class="btn">Hire Me</a>
+          </div>
+        </div>
+      </header>
+
+      <section class="hero" id="home">
+        <div class="hero-section">
+          <div class="hero-content">
+            <h1>Hi, I am</h1>
+            <h2>Walid Jerjawi</h2>
+            <h3 class="gradient-text">Software Developer</h3>
+            <div class="hero-social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn">Hire Me</a>
+              <a href="#" class="btn secondary">Download CV</a>
+            </div>
+            <div class="achievements">
+              <div class="achievement-item">
+                <h2>5+</h2>
+                <p>Certifications</p>
+              </div>
+              <div class="achievement-item">
+                <h2>10+</h2>
+                <p>Projects Done</p>
+              </div>
+              <div class="achievement-item">
+                <h2>500+</h2>
+                <p>Hours of Coding</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="circle-background"></div>
+            <img src="images/2.png" alt="walid" />
+          </div>
+        </div>
+      </section>
+
+
+      <section class="about-me" id="about">
+        <div class="about-title">
+          <h2>About Me</h2>
+          <p class="subtitle">
+            Bringing ideas to life with web development and UI/UX design.
+          </p>
+        </div>
+
+        <div class="about-section">
+          <div class="about-content">
+            <div class="about-image-wrapper">
+              <div class="about-image">
+                <div class="image-circle">
+                  <img src="images/1.png" alt="About Walid" />
+                </div>
+                <div class="image-background"></div>
+              </div>
+            </div>
+
+            <div class="about-text">
+              <p class="description">
+                I am a dedicated student with a strong foundation in programming
+                and web development. Over the course of my studies, I have
+                gained proficiency in Python, HTML, CSS, JavaScript, and React,
+                allowing me to create dynamic and interactive web applications.
+                Additionally, I have experience with Figma for UI/UX design,
+                enabling me to craft visually appealing and user-friendly
+                interfaces. My academic journey has also introduced me to
+                MATLAB, where I explored data analysis and numerical computing.
+                I am passionate about learning new technologies and continuously
+                improving my skills. With a blend of creativity and technical
+                knowledge, I strive to build solutions that are both functional
+                and innovative.
+              </p>
+              <div class="about-text">
+                <div class="tabs">
+                  <button class="tab-link" data-tab="skills">Skills</button>
+                  <button class="tab-link" data-tab="experience">
+                    Experience
+                  </button>
+                  <button class="tab-link" data-tab="education">
+                    Education
+                  </button>
+                </div>
+
+                <div class="tab-content">
+                  <div id="skills" class="tab-pane">
+                    <ul>
+                      <li>
+                        Proficient in Python, JavaScript, React, HTML, and CSS
+                      </li>
+                      <li>Experience with Figma for UI/UX design</li>
+                      <li>Hands-on knowledge of MATLAB for data analysis</li>
+                      <li>
+                        Created dynamic web applications using React and REST
+                        APIs
+                      </li>
+                    </ul>
+                  </div>
+                  <div id="experience" class="tab-pane">
+                    <ul>
+                      <li>
+                        Built multiple web applications for academic projects
+                      </li>
+                      <li>
+                        Gained hands-on experience with front-end and back-end
+                        integration
+                      </li>
+                      <li>
+                        Developed dynamic, interactive websites with React
+                      </li>
+                      <li>
+                        Collaborated on team projects to create user-friendly
+                        interfaces
+                      </li>
+                    </ul>
+                  </div>
+                  <div id="education" class="tab-pane">
+                    <ul>
+                      <li>Pursuing a degree in Computer Science</li>
+                      <li>
+                        Completed courses in programming, data structures, and
+                        algorithms
+                      </li>
+                      <li>
+                        Learned web development frameworks and UI/UX principles
+                      </li>
+                      <li>Focused on problem-solving and software design</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills">
+          <div class="skill">
+            <div class="circle" data-percentage="70">
+              <svg class="progress-circle" width="100" height="100">
+                <circle class="bg-circle" cx="50" cy="50" r="45"></circle>
+                <circle class="progress" cx="50" cy="50" r="45"></circle>
+              </svg>
+              <div class="inner-content">
+                <i class="fab fa-figma"></i>
+                <span>70%</span>
+              </div>
+            </div>
+            <p>Figma</p>
+          </div>
+
+          <div class="skill">
+            <div class="circle" data-percentage="85">
+              <svg class="progress-circle" width="100" height="100">
+                <circle class="bg-circle" cx="50" cy="50" r="45"></circle>
+                <circle class="progress" cx="50" cy="50" r="45"></circle>
+              </svg>
+              <div class="inner-content">
+                <i class="fab fa-html5"></i>
+                <span>85%</span>
+              </div>
+            </div>
+            <p>HTML/CSS</p>
+          </div>
+
+          <div class="skill">
+            <div class="circle" data-percentage="75">
+              <svg class="progress-circle" width="100" height="100">
+                <circle class="bg-circle" cx="50" cy="50" r="45"></circle>
+                <circle class="progress" cx="50" cy="50" r="45"></circle>
+              </svg>
+              <div class="inner-content">
+                <i class="fab fa-js-square"></i>
+                <span>75%</span>
+              </div>
+            </div>
+            <p>JavaScript</p>
+          </div>
+
+          <div class="skill">
+            <div class="circle" data-percentage="70">
+              <svg class="progress-circle" width="100" height="100">
+                <circle class="bg-circle" cx="50" cy="50" r="45"></circle>
+                <circle class="progress" cx="50" cy="50" r="45"></circle>
+              </svg>
+              <div class="inner-content">
+                <i class="fab fa-react"></i>
+                <span>70%</span>
+              </div>
+            </div>
+            <p>React.js</p>
+          </div>
+
+          <div class="skill">
+            <div class="circle" data-percentage="70">
+              <svg class="progress-circle" width="100" height="100">
+                <circle class="bg-circle" cx="50" cy="50" r="45"></circle>
+                <circle class="progress" cx="50" cy="50" r="45"></circle>
+              </svg>
+              <div class="inner-content">
+                <i class="fab fa-python"></i>
+                <span>70%</span>
+              </div>
+            </div>
+            <p>Python</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <h2 class="service-title">Services</h2>
+        <p class="service-subtitle">
+          A passionate student developer turning ideas into digital solutions.
+        </p>
+        <div class="header-section">
+          <div class="services-grid">
+            <div class="service-card">
+              <i class="fa fa-paint-brush"></i>
+              <h3>App Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Interdum lorem dolor sit amet consectetur.
+              </p>
+            </div>
+            <div class="service-card">
+              <i class="fa fa-laptop-code"></i>
+              <h3>Web Development</h3>
+              <p>
+                Building responsive and dynamic websites tailored to your needs.
+              </p>
+            </div>
+            <div class="service-card">
+              <i class="fa fa-mobile-alt"></i>
+              <h3>Mobile App Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Interdum lorem dolor sit amet consectetur.
+              </p>
+            </div>
+            <div class="service-card">
+              <i class="fa fa-chart-bar"></i>
+              <h3>Basic Graphic Design</h3>
+              <p>
+                Designing banners, posters, and graphics for various projects.
+              </p>
+            </div>
+            <div class="service-card">
+              <i class="fa fa-lightbulb"></i>
+              <h3>UI/UX Design</h3>
+              <p>Designing user-friendly and visually appealing interfaces.</p>
+            </div>
+            <div class="service-card">
+              <i class="fab fa-python"></i>
+              <h3>Python Development</h3>
+              <p>
+                Writing efficient Python scripts for data analysis, automation,
+                and backend solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <div class="animated-separator"></div> -->
+
+      <section class="split-gallery">
+        <div class="split-image upper">
+          <img src="images/slider3.webp" alt="Upper Part" />
+        </div>
+        <div class="split-image lower">
+          <img src="images/slider20.jpg" alt="Lower Part" />
+        </div>
+      </section>
+
+
+
+   
+
+      <section class="portfolio-section" id="portfolio">
+        <h2 class="portfolio-title">Portfolio</h2>
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="HTML/CSS">HTML/CSS</button>
+          <button class="filter-btn" data-filter="JavaScript">
+            JavaScript
+          </button>
+          <button class="filter-btn" data-filter="React.js">React.js</button>
+          <button class="filter-btn" data-filter="UI/UX">Figma</button>
+        </div>
+        <div class="header-section">
+          <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="HTML/CSS">
+              <!-- <img src="images/Tesla.jpeg" alt="Project 1" /> -->
+              <img src="images/100.png" alt="Project 1" />
+              <div class="portfolio-details">
+                <h3>Mobile Educational website</h3>
+                <p>HTML/CSS</p>
+                <a href="#" target="_blank" class="external-link"></a>
+                <i class="fas fa-external-link-alt"></i>
+              </div>
+            </div>
+            <div class="portfolio-item" data-category="JavaScript">
+              <!-- <img src="images/Resturant2.jpeg" alt="Project 2" /> -->
+              <img src="images/101.png" alt="Project 2" />
+              <div class="portfolio-details">
+                <h3>Gary's Eatery Resturant</h3>
+                <p>HTML, CSS and JavaScript</p>
+                <a href="#" target="_blank" class="external-link"></a>
+                <i class="fas fa-external-link-alt"></i>
+              </div>
+            </div>
+            <div class="portfolio-item" data-category="React.js">
+              <!-- <img src="images/E-Commerce.jpeg" alt="Project 3" /> -->
+              <img src="images/103.png" alt="Project 3" />
+              <div class="portfolio-details">
+                <h3>E-commerce App</h3>
+                <p>React.js</p>
+                <a href="#" target="_blank" class="external-link"></a>
+                <i class="fas fa-external-link-alt"></i>
+              </div>
+            </div>
+            <div class="portfolio-item" data-category="React.js">
+              <!-- <img src="images/image-gallery.jpeg" alt="Project 4" /> -->
+              <img src="images/104.png" alt="Project 4" />
+              <div class="portfolio-details">
+                <h3>Image Gallery</h3>
+                <p>React.js</p>
+                <a href="#" target="_blank" class="external-link"></a>
+                <i class="fas fa-external-link-alt"></i>
+              </div>
+            </div>
+            <div class="portfolio-item" data-category="UI/UX">
+              <!-- <img src="images/Resturant.jpeg" alt="Project 5" /> -->
+              <img src="images/105.png" alt="Project 5" />
+              <div class="portfolio-details">
+                <h3>Gary's Eatery</h3>
+                <p>UI/UX using Figma</p>
+                <a href="#" target="_blank" class="external-link"></a>
+                <i class="fas fa-external-link-alt"></i>
+              </div>
+            </div>
+            <div class="portfolio-item" data-category="UI/UX">
+              <img src="images/portfolio-figma.png" alt="Project 6" />
+              <div class="portfolio-details">
+                <h3>Name Project</h3>
+                <p>Branding</p>
+                <a href="#" target="_blank" class="external-link"></a>
+                <i class="fas fa-external-link-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      
+
+
+
+      <div id="image-modal" class="hidden">
+        <div class="modal-overlay"></div> 
+        <div class="modal-content">
+          <button class="close-btn">&times;</button> 
+          <img id="modal-image" src="" alt="">
+        </div>
+      </div>
+
+
+
+
+
+      <section class="contact-section" id="contact">
+        <h2 class="contact-title">Contact Me</h2>
+        <p class="contact-description">
+          Building Bridges: Let's Connect and Collaborate!
+        </p>
+        <div class="header-section">
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="phone"
+                placeholder="Phone Number"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" placeholder="Subject" />
+            </div>
+            <div class="form-group">
+              <input
+                type="timeLine"
+                name="timeLine"
+                placeholder="Timeline"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                placeholder="Drop your message..."
+                rows="5"
+                required
+              ></textarea>
+            </div>
+          </form>
+        </div>
+        <button type="submit" class="send-btn">Send</button>
+      </section>
+
+
+
+
+
+
+      <section class="memory-game-section">
+        <div class="memory-game-container">
+          
+          <h3 class="game-title">Sharpen Your Memory Skills!</h3>
+          <p>Match all the pairs to win!</p>
+          <div class="memory-game">
+            <div class="card" data-framework="html">
+              <div class="front"></div>
+              <div class="back">
+                <i class="fab fa-html5"></i>
+              </div>
+            </div>
+            <div class="card" data-framework="html">
+              <div class="front"></div>
+              <div class="back">
+                <i class="fab fa-html5"></i>
+              </div>
+            </div>
+            <div class="card" data-framework="css">
+              <div class="front"></div>
+              <div class="back">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+            </div>
+            <div class="card" data-framework="css">
+              <div class="front"></div>
+              <div class="back">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+            </div>
+            <div class="card" data-framework="js">
+              <div class="front"></div>
+              <div class="back">
+                <i class="fab fa-js-square"></i>
+              </div>
+            </div>
+            <div class="card" data-framework="js">
+              <div class="front"></div>
+              <div class="back">
+                <i class="fab fa-js-square"></i>
+              </div>
+            </div>
+            <div class="card" data-framework="react">
+              <div class="front"></div>
+              <div class="back">
+                <i class="fab fa-react"></i>
+              </div>
+            </div>
+            <div class="card" data-framework="react">
+              <div class="front"></div>
+              <div class="back">
+                <i class="fab fa-react"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="celebration hidden">
+          <h2>Congratulations!</h2>
+          <p>You matched all pairs!</p>
+        </div>
+
+        <button class="restart-game-btn">Restart Game</button>
+      </section>
+
+
+  
+
+
+      <footer class="footer-section">
+        <div class="footer-container">
+
+
+          <div class="footer-logo">
+            <div class="logo" >
+              <!-- <a href="#"><span class="logo-text">Walid.</span></a> -->
+              <a>
+                WAL<span class="i" id="footer-dot" >i<span class="dot" id="footer-dot">.</span></span
+                >D</a
+              >
+            </div>
+          </div>
+          <nav class="footer-navigation">
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact Me</a></li>
+            </ul>
+          </nav>
+          <div class="hero-social-links" id="footer-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+          </div>
+
+          <div class="footer-contact-info">
+            <p>Email: walid.jerjawi@keyin.com</p>
+            <p><i class="fas fa-phone"></i> &nbsp; &nbsp; +1 (709) 765-9434</p>
+          </div>
+          <section class="thank-you-banner">
+            <div class="thank-you-content">
+              <span>
+                Thank you for visiting my portfolio! | Let's connect and create
+                something amazing together! | Contact me anytime at
+                walid.jerjawi@keyin.com.
+              </span>
+            </div>
+          </section>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>

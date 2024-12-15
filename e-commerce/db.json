@@ -1,0 +1,513 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "HP EliteBook Second Generation",
+      "image": "/images/laptops/l1.jpg",
+      "price": 750,
+      "rating": 4.5,
+      "reviews": "900",
+      "isLaptop": true,
+      "description": "A high-performance business laptop with advanced security and sleek design.",
+      "specifications": [
+        "Processor: Intel Core i7",
+        "RAM: 16GB",
+        "Storage: 512GB SSD",
+        "Display: 14-inch Full HD",
+        "OS: Windows 10 Pro"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Acer Nitro 515-5 Laptop",
+      "image": "/images/laptops/l2.jpg",
+      "price": 600,
+      "rating": 3.8,
+      "reviews": "250",
+      "isLaptop": true,
+      "description": "Affordable gaming laptop with enhanced graphics and fast performance.",
+      "specifications": [
+        "Processor: Intel Core i5",
+        "RAM: 8GB",
+        "Storage: 256GB SSD",
+        "Graphics: NVIDIA GeForce GTX 1650",
+        "Display: 15.6-inch Full HD"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Huawei MateBook 14 Laptop",
+      "image": "/images/laptops/l3.jpg",
+      "price": 800,
+      "rating": 4.6,
+      "reviews": "1,200",
+      "isLaptop": true,
+      "description": "Sleek and lightweight laptop with a brilliant 2K display and long-lasting battery.",
+      "specifications": [
+        "Processor: AMD Ryzen 7",
+        "RAM: 16GB",
+        "Storage: 512GB SSD",
+        "Display: 14-inch 2K FullView",
+        "Battery: Fast charging support"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Asus Gaming Laptop - 571GT",
+      "image": "/images/laptops/l4.jpg",
+      "price": 950,
+      "rating": 4.1,
+      "reviews": "7,548",
+      "isLaptop": true,
+      "description": "A gaming powerhouse designed for immersive gameplay and smooth graphics.",
+      "specifications": [
+        "Processor: Intel Core i7",
+        "RAM: 16GB",
+        "Storage: 1TB HDD + 256GB SSD",
+        "Graphics: NVIDIA GTX 1660 Ti",
+        "Display: 15.6-inch Full HD"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Asus TUF 15 Laptop",
+      "image": "/images/laptops/l1.jpg",
+      "price": 700,
+      "rating": 4.5,
+      "reviews": "2,200",
+      "isLaptop": true,
+      "description": "A durable laptop ideal for multitasking and high-performance gaming.",
+      "specifications": [
+        "Processor: AMD Ryzen 5",
+        "RAM: 16GB",
+        "Storage: 512GB SSD",
+        "Graphics: NVIDIA GTX 1650",
+        "Build: Military-grade durability"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Asus Gaming Laptop F15",
+      "image": "/images/laptops/l6.jpg",
+      "price": 990,
+      "rating": 4.8,
+      "reviews": "5,500",
+      "isLaptop": true,
+      "description": "A premium gaming laptop with superior cooling and a high refresh rate display.",
+      "specifications": [
+        "Processor: Intel Core i7",
+        "RAM: 16GB",
+        "Storage: 1TB SSD",
+        "Graphics: NVIDIA RTX 3060",
+        "Display: 15.6-inch Full HD"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Lenovo IdeaPad Flex 5 14-inch",
+      "image": "/images/laptops/l7.jpg",
+      "price": 500,
+      "rating": 4.2,
+      "reviews": "850",
+      "isLaptop": true,
+      "description": "A convertible laptop that combines style and productivity.",
+      "specifications": [
+        "Processor: AMD Ryzen 5",
+        "RAM: 8GB",
+        "Storage: 256GB SSD",
+        "Display: 14-inch touchscreen",
+        "Battery: Up to 10 hours"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Microsoft Surface Go 2 with Touch Screen",
+      "image": "/images/laptops/l8.jpg",
+      "price": 850,
+      "rating": 4.7,
+      "reviews": "8,200",
+      "isLaptop": true,
+      "description": "A lightweight and portable laptop for professionals on the go.",
+      "specifications": [
+        "Processor: Intel Core M3",
+        "RAM: 8GB",
+        "Storage: 128GB SSD",
+        "Display: 10.5-inch touchscreen",
+        "OS: Windows 11"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Microsoft Surface Pro 8 with 13-inch Screen",
+      "image": "/images/laptops/l8.jpg",
+      "price": 900,
+      "rating": 4.1,
+      "reviews": "1,895",
+      "isLaptop": true,
+      "description": "A versatile 2-in-1 device that combines tablet and laptop features.",
+      "specifications": [
+        "Processor: Intel Core i5",
+        "RAM: 16GB",
+        "Storage: 256GB SSD",
+        "Display: 13-inch PixelSense",
+        "Battery: All-day battery life"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Asus VivoBook 17 Laptop",
+      "image": "/images/laptops/l10.jpg",
+      "price": 680,
+      "rating": 3.5,
+      "reviews": "8,124",
+      "isLaptop": true,
+      "description": "An affordable laptop with a large screen, perfect for work and entertainment.",
+      "specifications": [
+        "Processor: Intel Core i3",
+        "RAM: 8GB",
+        "Storage: 1TB HDD",
+        "Display: 17.3-inch Full HD",
+        "OS: Windows 10"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Apple iPhone 13 New",
+      "image": "/images/mobiles/m1.jpg",
+      "price": 800,
+      "rating": 4.9,
+      "reviews": "8,240",
+      "isLaptop": false,
+      "description": "A flagship smartphone with stunning display and unparalleled performance.",
+      "specifications": [
+        "Display: 6.1-inch Super Retina XDR",
+        "Chip: A15 Bionic",
+        "Camera: Dual 12MP",
+        "Battery: All-day life",
+        "Storage: 256GB"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Samsung Galaxy M33 Smart Phone",
+      "image": "/images/mobiles/m2.jpg",
+      "price": 350,
+      "rating": 4.5,
+      "reviews": "9,014",
+      "isLaptop": false,
+      "description": "A budget-friendly smartphone with excellent battery and camera features.",
+      "specifications": [
+        "Display: 6.6-inch FHD+",
+        "Processor: Exynos 1280",
+        "RAM: 6GB",
+        "Battery: 6000mAh",
+        "Camera: Quad-camera setup"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Samsung Galaxy M32 Dual SIM Phone",
+      "image": "/images/mobiles/m3.jpg",
+      "price": 200,
+      "rating": 3.5,
+      "reviews": "7,784",
+      "isLaptop": false,
+      "description": "A stylish smartphone with excellent multitasking capabilities.",
+      "specifications": [
+        "Display: 6.4-inch AMOLED",
+        "Processor: MediaTek Helio G80",
+        "RAM: 6GB",
+        "Battery: 5000mAh",
+        "Camera: 64MP quad-camera"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Poco X4 Pro Phone",
+      "image": "/images/mobiles/m4.jpg",
+      "price": 250,
+      "rating": 4.5,
+      "reviews": "2,401",
+      "isLaptop": false,
+      "description": "A value-for-money smartphone with a focus on performance and design.",
+      "specifications": [
+        "Display: 6.67-inch AMOLED",
+        "Processor: Snapdragon 695",
+        "RAM: 8GB",
+        "Battery: 5000mAh",
+        "Camera: 108MP triple-camera"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Samsung Galaxy FE Fourth Generation",
+      "image": "/images/mobiles/m5.jpg",
+      "price": 290,
+      "rating": 3,
+      "reviews": "420",
+      "isLaptop": false,
+      "description": "An affordable smartphone offering a great mix of features and style.",
+      "specifications": [
+        "Display: 6.5-inch Infinity-O",
+        "Processor: Exynos 990",
+        "RAM: 6GB",
+        "Battery: 4500mAh",
+        "Camera: Triple-camera setup"
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Vivo XDS 256 Blue",
+      "image": "/images/mobiles/m6.jpg",
+      "price": 750,
+      "rating": 5,
+      "reviews": "1,500",
+      "isLaptop": false,
+      "description": "A high-end smartphone with exceptional camera and performance features.",
+      "specifications": [
+        "Display: 6.56-inch AMOLED",
+        "Processor: Snapdragon 888",
+        "RAM: 12GB",
+        "Battery: 4200mAh",
+        "Camera: 50MP primary sensor"
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Apple iPhone 12 New",
+      "image": "/images/mobiles/m7.jpg",
+      "price": 700,
+      "rating": 4.5,
+      "reviews": "4,540",
+      "isLaptop": false,
+      "description": "A premium device with cutting-edge technology and iconic design.",
+      "specifications": [
+        "Display: 6.1-inch Super Retina XDR",
+        "Chip: A14 Bionic",
+        "Camera: Dual 12MP cameras",
+        "Battery: Fast charging support",
+        "Storage: 128GB"
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Smart Dual SIM Phone",
+      "image": "/images/mobiles/m8.jpg",
+      "price": 500,
+      "rating": 4.5,
+      "reviews": "17,124",
+      "isLaptop": false,
+      "description": "A versatile smartphone designed for dual-SIM flexibility and reliability.",
+      "specifications": [
+        "Display: 6.5-inch FHD+",
+        "Processor: MediaTek Helio G90T",
+        "RAM: 8GB",
+        "Battery: 5000mAh",
+        "Camera: 48MP quad-camera"
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Xiaomi Poco C40 Phone",
+      "image": "/images/mobiles/m9.jpg",
+      "price": 470,
+      "rating": 4,
+      "reviews": "4,700",
+      "isLaptop": false,
+      "description": "An affordable smartphone with a focus on battery life and functionality.",
+      "specifications": [
+        "Display: 6.71-inch HD+",
+        "Processor: JLQ JR510",
+        "RAM: 4GB",
+        "Battery: 6000mAh",
+        "Camera: 13MP dual-camera"
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Samsung Galaxy M52 Smart Phone",
+      "image": "/images/mobiles/m10.jpg",
+      "price": 850,
+      "rating": 5,
+      "reviews": "2,300",
+      "isLaptop": false,
+      "description": "A sleek smartphone with powerful performance and excellent display.",
+      "specifications": [
+        "Display: 6.7-inch Super AMOLED",
+        "Processor: Snapdragon 778G",
+        "RAM: 8GB",
+        "Battery: 5000mAh",
+        "Camera: 64MP triple-camera"
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Nokia A12",
+      "image": "/images/mobiles/m11.jpg",
+      "price": 40,
+      "rating": 4.1,
+      "reviews": "850",
+      "isLaptop": false,
+      "description": "A reliable entry-level phone with basic features and great battery life.",
+      "specifications": [
+        "Display: 6.3-inch HD+",
+        "Processor: MediaTek Helio A22",
+        "RAM: 2GB",
+        "Battery: 4000mAh",
+        "Camera: 8MP rear camera"
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Samsung Galaxy M13 Lite with System",
+      "image": "/images/mobiles/m12.jpg",
+      "price": 620,
+      "rating": 5,
+      "reviews": "7,500",
+      "isLaptop": false,
+      "description": "A compact phone with impressive features and a modern design.",
+      "specifications": [
+        "Display: 6.6-inch PLS LCD",
+        "Processor: Exynos 850",
+        "RAM: 4GB",
+        "Battery: 5000mAh",
+        "Camera: Triple-camera setup"
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Huawei Nova 9 Phone",
+      "image": "/images/mobiles/m13.jpg",
+      "price": 250,
+      "rating": 3.5,
+      "reviews": "1,784",
+      "isLaptop": false,
+      "description": "A trendy smartphone with smooth performance and eye-catching design.",
+      "specifications": [
+        "Display: 6.57-inch OLED",
+        "Processor: Snapdragon 778G",
+        "RAM: 8GB",
+        "Battery: 4300mAh",
+        "Camera: 50MP quad-camera"
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Galaxy M32 Fifth Generation Smart Phone",
+      "image": "/images/mobiles/m14.jpg",
+      "price": 320,
+      "rating": 4.1,
+      "reviews": "8,102",
+      "isLaptop": false,
+      "description": "A budget-friendly smartphone with 5G connectivity and large storage.",
+      "specifications": [
+        "Display: 6.5-inch TFT",
+        "Processor: Dimensity 720",
+        "RAM: 6GB",
+        "Battery: 5000mAh",
+        "Camera: Quad-camera setup"
+      ]
+    }
+  ],
+  "specialOffers": [
+    {
+      "id": "100",
+      "title": "Pioneer DJ Headphone",
+      "firstImage": "/images/special-offers/s1.jpg",
+      "secondImage": "/images/special-offers/s2.jpg",
+      "images": [
+        "/images/special-offers/s1.jpg",
+        "/images/special-offers/s2.jpg",
+        "/images/special-offers/s3.jpg",
+        "/images/special-offers/s4.jpg"
+      ],
+      "price": 50,
+      "discount": 30,
+      "rating": 4.1,
+      "reviews": "4,521",
+      "description": "The Pioneer DJ Headphone is crafted for ultimate comfort and an immersive listening experience. Designed with DJ and music enthusiasts in mind, this headphone offers superb sound quality and a durable build, making it an ideal companion for both studio sessions and live DJ performances.",
+      "specifications": [
+        "Driver Unit: 40mm dome type",
+        "Frequency Response: 5Hz-30kHz",
+        "Impedance: 32 ohms",
+        "Cable Length: 1.2m coiled cable (extends to 3m)",
+        "Weight: 220g (without cable)",
+        "Connectors: 3.5mm stereo mini-plug, 6.3mm adapter"
+      ]
+    },
+    {
+      "id": "101",
+      "title": "Hoco Earbud",
+      "firstImage": "/images/special-offers/s3.jpg",
+      "secondImage": "/images/special-offers/s4.jpg",
+      "images": [
+        "/images/special-offers/s3.jpg",
+        "/images/special-offers/s4.jpg",
+        "/images/special-offers/s1.jpg",
+        "/images/special-offers/s2.jpg"
+      ],
+      "price": 40,
+      "discount": 20,
+      "rating": 4.1,
+      "reviews": "1,870",
+      "description": "The Hoco Earbud is a lightweight and stylish in-ear headphone that delivers crisp and clear audio quality. Whether you're enjoying your favorite music or making a call, these earbuds provide a comfortable fit and reliable performance. Perfect for on-the-go use.",
+      "specifications": [
+        "Frequency Range: 20Hz-20kHz",
+        "Cable Length: 1.2m",
+        "Sensitivity: 96dB ± 3dB",
+        "Plug Type: 3.5mm",
+        "Built-in Microphone: Yes",
+        "Color: Black & Silver"
+      ]
+    },
+    {
+      "id": "102",
+      "title": "Samsung Tablet",
+      "firstImage": "/images/special-offers/s5.jpg",
+      "secondImage": "/images/special-offers/s6.jpg",
+      "images": [
+        "/images/special-offers/s5.jpg",
+        "/images/special-offers/s6.jpg"
+      ],
+      "price": 200,
+      "discount": 40,
+      "rating": 4.5,
+      "reviews": "584",
+      "description": "The Samsung Tablet combines performance, portability, and entertainment in a slim design. With a vibrant display and a long-lasting battery, this tablet is ideal for browsing, streaming, and productivity on the go. Enjoy smooth multitasking and immersive visuals.",
+      "specifications": [
+        "Display: 10.1-inch Full HD",
+        "Processor: Octa-core 2.0GHz",
+        "RAM: 3GB",
+        "Storage: 32GB (expandable up to 512GB)",
+        "Battery: 6150mAh (up to 13 hours of video playback)",
+        "OS: Android 10",
+        "Camera: 8MP rear, 5MP front"
+      ]
+    },
+    {
+      "id": "103",
+      "title": "Samsung Galaxy Phone",
+      "firstImage": "/images/special-offers/s7.jpg",
+      "secondImage": "/images/special-offers/s8.jpg",
+      "images": [
+        "/images/special-offers/s7.jpg",
+        "/images/special-offers/s8.jpg"
+      ],
+      "price": 550,
+      "discount": 20,
+      "rating": 4.8,
+      "reviews": "8,170",
+      "description": "The Samsung Galaxy Phone features an impressive design, stunning display, and top-of-the-line performance. Enjoy a powerful camera setup, fast processing, and long battery life that keeps you connected all day. This phone is perfect for photography enthusiasts and mobile power users.",
+      "specifications": [
+        "Display: 6.5-inch Super AMOLED",
+        "Processor: Qualcomm Snapdragon 750G",
+        "RAM: 6GB",
+        "Storage: 128GB (expandable up to 1TB)",
+        "Camera: Quad-camera setup (48MP main, 12MP ultra-wide, 5MP macro, 5MP depth)",
+        "Battery: 5000mAh, supports 25W fast charging",
+        "OS: Android 11"
+      ]
+    }
+  ],
+  "cart": []
+}
